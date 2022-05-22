@@ -10,7 +10,7 @@ public class Berserk extends Hero {
     public void applySuperPower(Boss boss, Hero[] heroes) {
         int berserkPower = (boss.getDamage()) / 3;
         boss.setHealth(boss.getHealth() - berserkPower);
-        System.out.println("Викинг нанес часть урона босса ему же");
+        System.out.println("Р’РёРєРёРЅРі РЅР°РЅРµСЃ С‡Р°СЃС‚СЊ СѓСЂРѕРЅР° Р±РѕСЃСЃР° РµРјСѓ Р¶Рµ");
 
     }
 
